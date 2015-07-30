@@ -1,3 +1,69 @@
+html {
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+body {
+  /* width: 940px; */
+  /* margin: 0 auto; */
+  font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5DD4C3;
+  width: 400px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: purple;
+}
+
 h1 {
+  order: 1;
   color: purple;
+  text-align: center;
+  letter-spacing: 1.6px;
+}
+
+ul {
+  order: 2;
+  color: purple;
+  list-style-type: none;
+  text-align: center;
+  padding-right: 3.0em;
+  cursor: default;
+}
+
+li {
+  margin: 3px;
+  padding: 2px;
+  font: 12pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
+  letter-spacing: 1px;
+  background-color: rgba(128, 128, 128, 0.56);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: purple;
+  border-width: 2px;
+}
+
+li:hover {
+  color: red;
+  border-color: red;
+}
+
+#add_task {
+  order: 3;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+input {
+  color: purple;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: purple;
+  border-width: 2px;
 }
